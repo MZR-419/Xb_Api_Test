@@ -163,3 +163,31 @@ AssertionError
 }
 [INFO 2021-06-28 21:28:03]测试用例-----单笔发放-----测试通过
 [INFO 2021-06-28 21:28:03]异常流测试用例-----单笔发放-----测试通过
+[INFO 2021-06-28 22:25:28]测试用例-----单笔发放-----不需要执行
+[INFO 2021-06-28 22:25:28]测试用例-----单笔发放-----不需要执行
+[INFO 2021-06-28 22:25:29]请求返回参数---->{
+    "code":1003,
+    "data":{
+        "error":"代发金额不能为空"
+    },
+    "encrypt":"FcGNz1CusRY8Ck+YSszUt6wi9PcqQMr2b+BawL95WtfHa54ENf2HTuzgmNvQf1jZpjjEC71HLxiFgyR5vaGnbw==",
+    "msg":"代发金额不能为空",
+    "nonce":"Ul8Cjxd1BqsHhD2F",
+    "signature":"7760896e3fca508c3610af870f47c3617ea6bf9c",
+    "timestamp":1624890329177
+}
+[INFO 2021-06-28 22:25:29]测试用例-----单笔发放-----测试通过
+[INFO 2021-06-28 22:25:29]异常流测试用例-----单笔发放-----测试通过
+[INFO 2021-06-28 22:25:29]请求返回参数---->{
+    "code":1003,
+    "data":{
+        "error":"代发金额不能为空"
+    },
+    "encrypt":"FcGNz1CusRY8Ck+YSszUt6wi9PcqQMr2b+BawL95WtfHa54ENf2HTuzgmNvQf1jZpjjEC71HLxiFgyR5vaGnbw==",
+    "msg":"代发金额不能为空",
+    "nonce":"8EV0rp3MCd5O30an",
+    "signature":"92df43e7a485da7d2adea791b27f60622e5dc92b",
+    "timestamp":1624890329286
+}
+[INFO 2021-06-28 22:25:29]测试用例-----单笔发放-----测试通过
+[INFO 2021-06-28 22:25:29]异常流测试用例-----单笔发放-----测试通过
