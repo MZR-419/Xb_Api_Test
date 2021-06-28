@@ -1,0 +1,536 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "mozhenraodeMacBook-Air.local",
+    "children" : [ {
+      "name" : "43735-MainThread",
+      "children" : [ {
+        "name" : "test_gettoken[data2]",
+        "uid" : "98021ee864df7808",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882246772,
+          "stop" : 1624882246772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_mm[赫敏]",
+        "uid" : "55316fea6683637c",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246776,
+          "stop" : 1624882246776,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'赫敏'" ]
+      }, {
+        "name" : "test_gwyc_api[data1]",
+        "uid" : "22cd41587c704c04",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246774,
+          "stop" : 1624882246774,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_mm[哈利]",
+        "uid" : "34ef35b72e795d91",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246776,
+          "stop" : 1624882246776,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'哈利'" ]
+      }, {
+        "name" : "test_gwyc_api[data0]",
+        "uid" : "2c9f2f72d2ee3ff6",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246774,
+          "stop" : 1624882246774,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "test_gettoken[data0]",
+        "uid" : "864ff63a78b99945",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246572,
+          "stop" : 1624882246719,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "120f9b84c31f6365",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246777,
+          "stop" : 1624882246806,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "test_gwyc_api[data2]",
+        "uid" : "eed93d19b580aaa9",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246775,
+          "stop" : 1624882246775,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "c81907ad28766e8f",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246837,
+          "stop" : 1624882246958,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_gettoken[data1]",
+        "uid" : "3fa62695548487f3",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882246721,
+          "stop" : 1624882246721,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "7ce5c6ddabcc4a69",
+        "parentUid" : "f39622f76dc43e7b2c254da3f1087150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882246807,
+          "stop" : 1624882246836,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      } ],
+      "uid" : "f39622f76dc43e7b2c254da3f1087150"
+    }, {
+      "name" : "43777-MainThread",
+      "children" : [ {
+        "name" : "单笔发放",
+        "uid" : "93a2d1b74b6d7502",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278441,
+          "stop" : 1624882278471,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_gettoken[data1]",
+        "uid" : "ff66f80427e77c48",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882278360,
+          "stop" : 1624882278361,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_gwyc_api[data2]",
+        "uid" : "ae33fe83dd260a35",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278407,
+          "stop" : 1624882278407,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_mm[哈利]",
+        "uid" : "51f137b907d12ea4",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278408,
+          "stop" : 1624882278408,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'哈利'" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "1a10505ea965c026",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278409,
+          "stop" : 1624882278440,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "test_gettoken[data0]",
+        "uid" : "a2146de9bad396c7",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278221,
+          "stop" : 1624882278359,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "75e7d9caece94327",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278472,
+          "stop" : 1624882278591,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_mm[赫敏]",
+        "uid" : "e9707943ac092295",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278409,
+          "stop" : 1624882278409,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'赫敏'" ]
+      }, {
+        "name" : "test_gettoken[data2]",
+        "uid" : "8e07c3ace12a0593",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882278404,
+          "stop" : 1624882278404,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_gwyc_api[data1]",
+        "uid" : "cb8c8d2ce8b4f09b",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278407,
+          "stop" : 1624882278407,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_gwyc_api[data0]",
+        "uid" : "5fba0da1b4b3b5e1",
+        "parentUid" : "3e44e9afb556fdbf4d80065d3bb21054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882278406,
+          "stop" : 1624882278406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      } ],
+      "uid" : "3e44e9afb556fdbf4d80065d3bb21054"
+    }, {
+      "name" : "43946-MainThread",
+      "children" : [ {
+        "name" : "单笔发放",
+        "uid" : "2c8bea2dd114f194",
+        "parentUid" : "2c7486ac1277c719d090117795ee5298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882704901,
+          "stop" : 1624882704933,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "3bb96fdaad7ed4b3",
+        "parentUid" : "2c7486ac1277c719d090117795ee5298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882704934,
+          "stop" : 1624882705096,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "152aa924428eb219",
+        "parentUid" : "2c7486ac1277c719d090117795ee5298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882704860,
+          "stop" : 1624882704900,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      } ],
+      "uid" : "2c7486ac1277c719d090117795ee5298"
+    }, {
+      "name" : "43964-MainThread",
+      "children" : [ {
+        "name" : "test_gwyc_api[data2]",
+        "uid" : "d23e9ffe1c39f6a9",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742122,
+          "stop" : 1624882742122,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "test_gettoken[data2]",
+        "uid" : "d71993c35813a540",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882742119,
+          "stop" : 1624882742119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "9e60b234478757f1",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742124,
+          "stop" : 1624882742154,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "test_gettoken[data0]",
+        "uid" : "78d8b3257b3b2b",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882741909,
+          "stop" : 1624882742064,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "test_mm[哈利]",
+        "uid" : "3ee2bd34e95811a2",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742123,
+          "stop" : 1624882742123,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'哈利'" ]
+      }, {
+        "name" : "test_gwyc_api[data1]",
+        "uid" : "d0f4811608fdf6cc",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742122,
+          "stop" : 1624882742122,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_mm[赫敏]",
+        "uid" : "939a4aa3cd3431f3",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742123,
+          "stop" : 1624882742124,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'赫敏'" ]
+      }, {
+        "name" : "test_gettoken[data1]",
+        "uid" : "fb6f3b8eda04e0f0",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882742066,
+          "stop" : 1624882742066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_gwyc_api[data0]",
+        "uid" : "bb96a196ef30c23d",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742121,
+          "stop" : 1624882742121,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "e1eb26aa90edecdb",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742155,
+          "stop" : 1624882742184,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "a31b9751129e387c",
+        "parentUid" : "0a99ef60190a3cc650987b2cba36f5ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882742185,
+          "stop" : 1624882742301,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      } ],
+      "uid" : "0a99ef60190a3cc650987b2cba36f5ba"
+    }, {
+      "name" : "43844-MainThread",
+      "children" : [ {
+        "name" : "单笔发放",
+        "uid" : "846fe846192911f6",
+        "parentUid" : "6ba07e7bee396d8d0760388c1150eab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882372610,
+          "stop" : 1624882372654,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "54d49bc1e7787ec1",
+        "parentUid" : "6ba07e7bee396d8d0760388c1150eab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882372656,
+          "stop" : 1624882372687,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "单笔发放",
+        "uid" : "f69c3e005ae576ed",
+        "parentUid" : "6ba07e7bee396d8d0760388c1150eab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624882372688,
+          "stop" : 1624882372812,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      } ],
+      "uid" : "6ba07e7bee396d8d0760388c1150eab7"
+    } ],
+    "uid" : "556c02f9d0b5f6759dc8990f4bafb9c7"
+  } ]
+}

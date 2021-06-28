@@ -1,0 +1,19 @@
+[ERROR 2021-06-24 22:57:16]This is error
+[ERROR 2021-06-27 11:15:48]Traceback (most recent call last):
+  File "/Users/mozhenrao/Xb_ApiTest/utils/assertion.py", line 24, in assert_status_code
+    assert status_code == expected_code
+AssertionError
+
+[ERROR 2021-06-27 11:15:48]actual results is 1000, expected results is None 
+[ERROR 2021-06-27 11:24:49]Traceback (most recent call last):
+  File "/Users/mozhenrao/Xb_ApiTest/utils/assertion.py", line 24, in assert_status_code
+    assert status_code == expected_code
+AssertionError
+
+[ERROR 2021-06-27 11:24:49]actual results is 1003, expected results is 1000 
+[ERROR 2021-06-27 12:01:56]Traceback (most recent call last):
+  File "/Users/mozhenrao/Xb_ApiTest/utils/assertion.py", line 41, in assert_single_item
+    assert single_item ==None
+AssertionError
+
+[ERROR 2021-06-27 12:01:56]actual results is 代发金额不能为空, expected results is 代发金额不能为空 

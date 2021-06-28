@@ -1,0 +1,103 @@
+{
+  "uid" : "9e60b234478757f1",
+  "name" : "单笔发放",
+  "fullName" : "test_Case.test_danbi#test_gettoken",
+  "historyId" : "c2abb07f000d58f21923a9edf26da2b0",
+  "time" : {
+    "start" : 1624882742124,
+    "stop" : 1624882742154,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624882741779,
+      "stop" : 1624882741908,
+      "duration" : 129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_danbi"
+  }, {
+    "name" : "host",
+    "value" : "mozhenraodeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "43964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Case.test_danbi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "152aa924428eb219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882704860,
+        "stop" : 1624882704900,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "846fe846192911f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882372610,
+        "stop" : 1624882372654,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "1a10505ea965c026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882278409,
+        "stop" : 1624882278440,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "120f9b84c31f6365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882246777,
+        "stop" : 1624882246806,
+        "duration" : 29
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e60b234478757f1.json",
+  "parameterValues" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":${orderNo},\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1000, '期望结果': 1}" ]
+}

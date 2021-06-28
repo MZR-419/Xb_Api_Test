@@ -1,0 +1,4 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): stage.api.xinshuiguanjia.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://stage.api.xinshuiguanjia.com:443 "POST /trans/upload HTTP/1.1" 200 299
+INFO     root:Log.py:76 [INFO 2021-06-28 20:12:52]单笔发放用例测试通过
+INFO     root:Log.py:76 [INFO 2021-06-28 20:12:52]异常流单笔发放用例测试通过

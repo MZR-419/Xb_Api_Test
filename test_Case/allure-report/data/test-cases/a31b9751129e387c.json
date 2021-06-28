@@ -1,0 +1,119 @@
+{
+  "uid" : "a31b9751129e387c",
+  "name" : "单笔发放",
+  "fullName" : "test_Case.test_danbi#test_gettoken",
+  "historyId" : "3ac3790d5e6543eed419a15aa61253d7",
+  "time" : {
+    "start" : 1624882742185,
+    "stop" : 1624882742301,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624882741779,
+      "stop" : 1624882741908,
+      "duration" : 129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5c89ba02a507044",
+      "name" : "log",
+      "source" : "d5c89ba02a507044.txt",
+      "type" : "text/plain",
+      "size" : 425
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_danbi"
+  }, {
+    "name" : "host",
+    "value" : "mozhenraodeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "43964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Case.test_danbi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bb96fdaad7ed4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882704934,
+        "stop" : 1624882705096,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "f69c3e005ae576ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882372688,
+        "stop" : 1624882372812,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "75e7d9caece94327",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882278472,
+        "stop" : 1624882278591,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "c81907ad28766e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624882246837,
+        "stop" : 1624882246958,
+        "duration" : 121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a31b9751129e387c.json",
+  "parameterValues" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+}

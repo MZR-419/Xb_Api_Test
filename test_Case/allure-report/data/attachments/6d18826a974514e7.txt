@@ -1,0 +1,4 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): stage.api.xinshuiguanjia.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://stage.api.xinshuiguanjia.com:443 "POST /oauth/token HTTP/1.1" 200 845
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): stage.api.xinshuiguanjia.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://stage.api.xinshuiguanjia.com:443 "POST /trans/upload HTTP/1.1" 200 271

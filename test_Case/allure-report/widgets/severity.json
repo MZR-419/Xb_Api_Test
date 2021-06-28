@@ -1,0 +1,111 @@
+[ {
+  "uid" : "9e60b234478757f1",
+  "name" : "单笔发放",
+  "time" : {
+    "start" : 1624882742124,
+    "stop" : 1624882742154,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d23e9ffe1c39f6a9",
+  "name" : "test_gwyc_api[data2]",
+  "time" : {
+    "start" : 1624882742122,
+    "stop" : 1624882742122,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d8b3257b3b2b",
+  "name" : "test_gettoken[data0]",
+  "time" : {
+    "start" : 1624882741909,
+    "stop" : 1624882742064,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d71993c35813a540",
+  "name" : "test_gettoken[data2]",
+  "time" : {
+    "start" : 1624882742119,
+    "stop" : 1624882742119,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a31b9751129e387c",
+  "name" : "单笔发放",
+  "time" : {
+    "start" : 1624882742185,
+    "stop" : 1624882742301,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee2bd34e95811a2",
+  "name" : "test_mm[哈利]",
+  "time" : {
+    "start" : 1624882742123,
+    "stop" : 1624882742123,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb6f3b8eda04e0f0",
+  "name" : "test_gettoken[data1]",
+  "time" : {
+    "start" : 1624882742066,
+    "stop" : 1624882742066,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb96a196ef30c23d",
+  "name" : "test_gwyc_api[data0]",
+  "time" : {
+    "start" : 1624882742121,
+    "stop" : 1624882742121,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1eb26aa90edecdb",
+  "name" : "单笔发放",
+  "time" : {
+    "start" : 1624882742155,
+    "stop" : 1624882742184,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "939a4aa3cd3431f3",
+  "name" : "test_mm[赫敏]",
+  "time" : {
+    "start" : 1624882742123,
+    "stop" : 1624882742124,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f4811608fdf6cc",
+  "name" : "test_gwyc_api[data1]",
+  "time" : {
+    "start" : 1624882742122,
+    "stop" : 1624882742122,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

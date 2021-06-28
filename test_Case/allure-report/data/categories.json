@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "UnboundLocalError: local variable 'datas' referenced before assignment",
+      "children" : [ {
+        "name" : "test_gettoken[data1]",
+        "uid" : "fb6f3b8eda04e0f0",
+        "parentUid" : "fb97cf0d5c9be50501ccf51e76a90501",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882742066,
+          "stop" : 1624882742066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '否', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":0.2,\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":\"98989878787867\",\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': None, '期望结果': None}" ]
+      }, {
+        "name" : "test_gettoken[data2]",
+        "uid" : "d71993c35813a540",
+        "parentUid" : "fb97cf0d5c9be50501ccf51e76a90501",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624882742119,
+          "stop" : 1624882742119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'是否开启': '是', '用例名称': '单笔发放', '请求方式': 'post', '请求地址': '/trans/upload', '请求数据': '{\"datas\":[{\"acctName\":\"莫振饶\",\"acctNo\":\"6214832072174308\",\"amount\":\"\",\"cardNo\":\"440183199504196756\",\"mobile\":\"13480213228\",\"orderNo\":998989898,\"papersType\":\"ID_CARD\",\"pmtType\":\"PAYMENT\",\"remark\":\"测试Test\",\"riskControl\":\"\"}],\"cmd\":\"\",\"notifyUrls\":\"http://localhost:8483/notify\",\"level\":\"\"}', '状态码': 1003, '期望结果': '代发金额不能为空'}" ]
+      } ],
+      "uid" : "fb97cf0d5c9be50501ccf51e76a90501"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
